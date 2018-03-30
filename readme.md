@@ -11,6 +11,7 @@ Because of the straightforward nature of the requirements, the architecture is s
 1. Use system IO to find the datafile and read it in as a string
 2. Use Newtonsoft to parse the JSON into a object that is queryable
 3. Use LINQ to query the object according to specifications
+3b. Do all of those queries one and a time and all at once
 4. Iterate across those results and print them to the console
 
 There are no unit tests for this app.
